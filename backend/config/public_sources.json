@@ -1,0 +1,137 @@
+{
+  "public_sources": [
+    {
+      "id": "saviynt_docs",
+      "name": "Saviynt Documentation",
+      "description": "Official Saviynt product documentation",
+      "base_url": "https://docs.saviyntcloud.com",
+      "search_enabled": true,
+      "crawl_config": {
+        "sitemap_url": "https://docs.saviyntcloud.com/sitemap.xml",
+        "allowed_domains": [
+          "docs.saviyntcloud.com"
+        ],
+        "max_depth": 3,
+        "respect_robots_txt": true
+      },
+      "display_config": {
+        "icon": "\ud83d\udcda",
+        "color": "#1e40af",
+        "category": "documentation"
+      }
+    },
+    {
+      "id": "postman_docs",
+      "name": "Postman Documentation",
+      "description": "Postman API platform documentation and learning center",
+      "base_url": "https://learning.postman.com",
+      "search_enabled": true,
+      "crawl_config": {
+        "sitemap_url": "https://learning.postman.com/sitemap.xml",
+        "allowed_domains": [
+          "learning.postman.com",
+          "docs.postman.com"
+        ],
+        "max_depth": 3,
+        "respect_robots_txt": true,
+        "additional_urls": [
+          "https://docs.postman.com",
+          "https://blog.postman.com/docs"
+        ]
+      },
+      "display_config": {
+        "icon": "\ud83d\ude80",
+        "color": "#ff6c37",
+        "category": "tools"
+      }
+    },
+    {
+      "name": "GitHub Docs",
+      "base_url": "https://docs.github.com",
+      "description": "Official GitHub documentation for developers and repository management",
+      "search_enabled": true,
+      "ingestion_config": {
+        "crawl_enabled": true,
+        "crawl_depth": 3,
+        "crawl_frequency": "weekly",
+        "include_patterns": [
+          "/en/*",
+          "/rest/*",
+          "/graphql/*",
+          "/actions/*",
+          "/repositories/*"
+        ],
+        "exclude_patterns": [
+          "/enterprise-server/*",
+          "/early-access/*",
+          "*/admin/*"
+        ],
+        "max_pages": 1000
+      },
+      "display_config": {
+        "icon": "\ud83d\udc19",
+        "category": "documentation",
+        "color": "#24292e",
+        "priority": 8
+      },
+      "id": "github_docs"
+    },
+    {
+      "id": "docker_documentation",
+      "name": "Docker Documentation",
+      "description": "Official Docker documentation and guides",
+      "base_url": "https://docs.docker.com",
+      "search_enabled": true,
+      "ingestion_config": {
+        "crawl_enabled": true,
+        "crawl_depth": 2,
+        "crawl_frequency": "weekly",
+        "include_patterns": [
+          "/docs/*",
+          "/documentation/*",
+          "/guides/*"
+        ],
+        "exclude_patterns": [
+          "/admin/*",
+          "/private/*",
+          "*/draft/*"
+        ],
+        "max_pages": 500
+      },
+      "display_config": {
+        "icon": "\ud83d\udc33",
+        "category": "tools",
+        "color": "#2496ed",
+        "priority": 5
+      }
+    }
+  ],
+  "categories": {
+    "documentation": {
+      "label": "Documentation",
+      "description": "Official product documentation",
+      "order": 1
+    },
+    "tools": {
+      "label": "Tools & APIs",
+      "description": "Development tools and API documentation",
+      "order": 2
+    },
+    "tutorials": {
+      "label": "Tutorials & Guides",
+      "description": "Learning resources and how-to guides",
+      "order": 3
+    }
+  },
+  "search_config": {
+    "default_sources": [
+      "saviynt_docs"
+    ],
+    "max_results_per_source": 10,
+    "boost_factors": {
+      "title_match": 2.0,
+      "exact_phrase": 1.5,
+      "recent_content": 1.2
+    }
+  }
+}

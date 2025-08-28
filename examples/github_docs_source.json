@@ -1,0 +1,30 @@
+{
+  "name": "GitHub Docs",
+  "base_url": "https://docs.github.com",
+  "description": "Official GitHub documentation for developers and repository management",
+  "search_enabled": true,
+  "ingestion_config": {
+    "crawl_enabled": true,
+    "crawl_depth": 3,
+    "crawl_frequency": "weekly",
+    "include_patterns": [
+      "/en/*",
+      "/rest/*",
+      "/graphql/*",
+      "/actions/*",
+      "/repositories/*"
+    ],
+    "exclude_patterns": [
+      "/enterprise-server/*",
+      "/early-access/*",
+      "*/admin/*"
+    ],
+    "max_pages": 1000
+  },
+  "display_config": {
+    "icon": "🐙",
+    "category": "documentation",
+    "color": "#24292e",
+    "priority": 8
+  }
+}
