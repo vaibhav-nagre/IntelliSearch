@@ -18,26 +18,50 @@
 
 ## 🎭 **Live Demo Magic**
 
+<div align="center">
+
+### 🌟 **Experience IntelliSearch in Action**
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=🏠+Beautiful+Homepage;🔍+Lightning+Search;🤖+AI+Chat+Interface" alt="Demo Features" />
+
+</div>
+
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="33%" align="center">
 <h3>🏠 <b>Homepage</b></h3>
-
-<br/>
+<img src="./images/Homepage.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3); border: 2px solid #6366f1;"/>
+<br/><br/>
 <a href="http://localhost:3000">
 <img src="https://img.shields.io/badge/🌐_Live_Demo-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 </td>
-<td width="50%" align="center">
+<td width="33%" align="center">
 <h3>🔍 <b>Search Results</b></h3>
-
-<br/>
+<img src="./images/search-results.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3); border: 2px solid #10b981;"/>
+<br/><br/>
 <a href="http://localhost:3000/search">
 <img src="https://img.shields.io/badge/⚡_Try_Search-10B981?style=for-the-badge&logo=searchengineland&logoColor=white"/>
 </a>
 </td>
+<td width="33%" align="center">
+<h3>🤖 <b>AI Chat</b></h3>
+<img src="./images/Ai-chat.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(139, 92, 246, 0.3); border: 2px solid #8b5cf6;"/>
+<br/><br/>
+<a href="http://localhost:3000?tab=ai-deeper">
+<img src="https://img.shields.io/badge/🤖_AI_Chat-8B5CF6?style=for-the-badge&logo=openai&logoColor=white"/>
+</a>
+</td>
 </tr>
 </table>
+
+<div align="center">
+
+### ✨ **Interactive Features Showcase**
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&size=16&duration=2000&pause=800&color=FF6B6B&center=true&vCenter=true&width=800&lines=🎭+Smooth+animations+with+Framer+Motion;🌈+Beautiful+gradients+and+transitions;⚡+Real-time+search+suggestions;🔐+Secure+Google+SSO+authentication;📱+Fully+responsive+design;🎨+Modern+glass-morphism+effects" alt="Interactive Features" />
+
+</div>
 
 ---
 
@@ -209,22 +233,48 @@ open http://localhost:3000
 
 <img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=12,6,20,14&height=150&section=header&text=🎨%20Beautiful%20Interface&fontSize=30&fontColor=fff&animation=fadeIn" width="100%"/>
 
+### 🚀 **Application Screenshots Gallery**
+
+<table>
+<tr>
+<td width="50%" align="center">
+<h4>🏠 <b>Google-like Homepage</b></h4>
+<img src="./images/Homepage.png" width="100%" style="border-radius: 20px; box-shadow: 0 12px 40px rgba(99, 102, 241, 0.4); border: 3px solid #6366f1; transition: transform 0.3s ease;"/>
+<p><em>✨ Elegant search interface with creator branding</em></p>
+</td>
+<td width="50%" align="center">
+<h4>🔍 <b>Intelligent Search Results</b></h4>
+<img src="./images/search-results.png" width="100%" style="border-radius: 20px; box-shadow: 0 12px 40px rgba(16, 185, 129, 0.4); border: 3px solid #10b981; transition: transform 0.3s ease;"/>
+<p><em>⚡ Lightning-fast results with AI ranking</em></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<h4>🤖 <b>AI-Powered Chat Interface</b></h4>
+<img src="./images/Ai-chat.png" width="70%" style="border-radius: 20px; box-shadow: 0 12px 40px rgba(139, 92, 246, 0.4); border: 3px solid #8b5cf6; transition: transform 0.3s ease;"/>
+<p><em>🧠 Conversational AI for deeper insights and complex queries</em></p>
+</td>
+</tr>
+</table>
+
+### 🎭 **Design Features**
+
 <table>
 <tr>
 <td width="33%" align="center">
-<h4>🎭 <b>Animations</b></h4>
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="150" style="border-radius: 10px;"/>
-<p><em>Smooth Framer Motion</em></p>
+<h4>🎨 <b>Animations</b></h4>
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="120" style="border-radius: 15px;"/>
+<p><em>Smooth Framer Motion transitions</em></p>
 </td>
 <td width="33%" align="center">
 <h4>🌊 <b>Gradients</b></h4>
-<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="150" style="border-radius: 10px;"/>
-<p><em>Beautiful Color Flows</em></p>
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="120" style="border-radius: 15px;"/>
+<p><em>Beautiful color flows throughout</em></p>
 </td>
 <td width="33%" align="center">
 <h4>⚡ <b>Real-Time</b></h4>
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="150" style="border-radius: 10px;"/>
-<p><em>Lightning Fast Search</em></p>
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="120" style="border-radius: 15px;"/>
+<p><em>Sub-second search responses</em></p>
 </td>
 </tr>
 </table>
