@@ -30,7 +30,7 @@
 <tr>
 <td width="33%" align="center">
 <h3>🏠 <b>Homepage</b></h3>
-<img src="/images/Homepage.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3); border: 2px solid #6366f1;"/>
+<img src="/examples/Homepage.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3); border: 2px solid #6366f1;"/>
 <br/><br/>
 <a href="http://localhost:3000">
 <img src="https://img.shields.io/badge/🌐_Live_Demo-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white"/>
