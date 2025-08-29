@@ -38,7 +38,7 @@
 </td>
 <td width="33%" align="center">
 <h3>🔍 <b>Search Results</b></h3>
-<img src="./images/search-results.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3); border: 2px solid #10b981;"/>
+<img src="./examples/search-results.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(16, 185, 129, 0.3); border: 2px solid #10b981;"/>
 <br/><br/>
 <a href="http://localhost:3000/search">
 <img src="https://img.shields.io/badge/⚡_Try_Search-10B981?style=for-the-badge&logo=searchengineland&logoColor=white"/>
@@ -46,7 +46,7 @@
 </td>
 <td width="33%" align="center">
 <h3>🤖 <b>AI Chat</b></h3>
-<img src="./images/Ai-chat.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(139, 92, 246, 0.3); border: 2px solid #8b5cf6;"/>
+<img src="./examples/Ai-chat.png" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(139, 92, 246, 0.3); border: 2px solid #8b5cf6;"/>
 <br/><br/>
 <a href="http://localhost:3000?tab=ai-deeper">
 <img src="https://img.shields.io/badge/🤖_AI_Chat-8B5CF6?style=for-the-badge&logo=openai&logoColor=white"/>
