@@ -22,7 +22,7 @@
 <tr>
 <td width="50%" align="center">
 <h3>🏠 <b>Homepage</b></h3>
-<img src="https://via.placeholder.com/400x250/6366f1/ffffff?text=🏠+Beautiful+Homepage" alt="Homepage" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(99,102,241,0.3);"/>
+
 <br/>
 <a href="http://localhost:3000">
 <img src="https://img.shields.io/badge/🌐_Live_Demo-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white"/>
@@ -30,7 +30,7 @@
 </td>
 <td width="50%" align="center">
 <h3>🔍 <b>Search Results</b></h3>
-<img src="https://via.placeholder.com/400x250/10b981/ffffff?text=🔍+Smart+Results" alt="Search" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(16,185,129,0.3);"/>
+
 <br/>
 <a href="http://localhost:3000/search">
 <img src="https://img.shields.io/badge/⚡_Try_Search-10B981?style=for-the-badge&logo=searchengineland&logoColor=white"/>
